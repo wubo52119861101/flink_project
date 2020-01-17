@@ -1,6 +1,5 @@
 package org.wubo.flinkproject.jdbc;
 
-import lombok.Synchronized;
 import org.wubo.flinkproject.conf.ConfigurationManager;
 import org.wubo.flinkproject.constant.Constant;
 
@@ -142,7 +141,6 @@ public class JDBCHelper {
         }
         return rtn;
     }
-
     public static interface QueryCallback{
         /**
          * 处理查询结果
